@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+header {
+    border: solid 5px red;
+    background-color: tomato;
+    height: 90px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+article {
+    border: solid blue 5px;
+    margin: 50px 35px;
+
+    figure {
+        border: solid 5px green;
+
+        img {
+            width: 150px;
+        }
+    }
+}
